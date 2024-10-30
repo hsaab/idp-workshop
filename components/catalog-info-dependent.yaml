@@ -37,10 +37,10 @@ metadata:
     #jira/project-key: IDP
     ## Jira plugin - End
   tags:
-    - yournamehere
+    - hsaab
 spec:
   type: service
-  owner: change-value
+  owner: TeamA
   lifecycle: experimental
   consumesApis:
     - spotify
@@ -48,4 +48,4 @@ spec:
     - petstore
   dependsOn:
     - component:default/hsaab-service
-#  system: yournamehere-system
+  system: hsaab-system
