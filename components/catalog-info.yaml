@@ -15,8 +15,8 @@ metadata:
     harness.io/pipelines: |
      Build and Deploy: https://app.harness.io/ng/account/6_vVHzo9Qeu9fXvj-AcbCQ/module/cd/orgs/default/projects/Platform_Demo/pipelines/EndtoEnd_Pipeline_SVC_Redesign/pipeline-studio?storeType=INLINE
      Infrastructure: https://app.harness.io/ng/account/6_vVHzo9Qeu9fXvj-AcbCQ/module/cd/orgs/default/projects/Platform_Demo/pipelines/IaCM_Provision_EC2_Instance/pipeline-studio?storeType=INLINE
-    #harness.io/services: |
-    #  boutique_frontend: https://app.harness.io/ng/account/6_vVHzo9Qeu9fXvj-AcbCQ/module/cd/orgs/default/projects/Platform_Demo/services/Boutique_Frontend
+    harness.io/services: |
+     boutique_frontend: https://app.harness.io/ng/account/6_vVHzo9Qeu9fXvj-AcbCQ/module/cd/orgs/default/projects/Platform_Demo/services/Boutique_Frontend
     #For Harness CI/CD plugins - End
     #For Harness IACM plugin - Start
     #harness.io/workspace-url: |
