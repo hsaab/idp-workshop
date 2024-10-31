@@ -1,12 +1,12 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: bonus-onboarding-lab-yournamehere
+  name: bonus-onboarding-lab-hsaab
   title: Create a cookicutter datascience app
   description: A template to create a new cookiecutter datascience app
   tags:
     - workshop
-    - yournamehere
+    - hsaab
 spec:
   owner: platformteam
   type: service
@@ -46,7 +46,7 @@ spec:
       name: Creating your data science project
       action: trigger:harness-custom-pipeline
       input:
-        url: "<input onboarding pipeline URL>"
+        url: "https://app.harness.io/ng/account/IFG41DWvSnaRLOVNB2uesg/all/orgs/idp/projects/SelfService_Onboarding/pipelines/Onboard_New_Datascience_Service/pipeline-studio?storeType=INLINE"
         inputset:
           project_name: ${{ parameters.project_name }}
           feature_branch: ${{ parameters.feature_branch }}
