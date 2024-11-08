@@ -42,7 +42,7 @@ spec:
       name: Provision a New Application Pattern
       action: trigger:harness-custom-pipeline
       input:
-        url: "https://app.harness.io/ng/account/IFG41DWvSnaRLOVNB2uesg/module/idp-admin/orgs/idp/projects/SelfService_Onboarding/pipelines/OnboardAppPipeline/pipeline-studio?storeType=INLINE"
+        url: "https://app.harness.io/ng/account/IFG41DWvSnaRLOVNB2uesg/all/orgs/default/projects/nylhassan/pipelines/Onboard_New_Datascience_Service/pipeline-studio?storeType=INLINE"
         inputset:
           github_repo_name: ${{ parameters.github_repo_name }}
           github_repo_description: ${{ parameters.github_repo_description }}
