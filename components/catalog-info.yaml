@@ -10,6 +10,7 @@ metadata:
   annotations:
     github.com/project-slug: harnessworkshop/idp-workshop
     backstage.io/techdocs-ref: dir:../
+    backstage.io/source-location: 'url:https://github.com/hsaab/idp-workshop/tree/main'
     lighthouse.com/website-url: https://harness.io
     #For Harness CI/CD plugins - Start
     harness.io/pipelines: |
